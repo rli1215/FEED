@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Bangkok Pinto",
+        "id": 1001,
+        "globalRating": 4.6,
+        "street": "1041 Tremont St",
+        "city": "Boston",
+        "state": "MA",
+        "zipcode": "02120",
+        "phone": "617-442-5555",
+        "website": "direct.chownow.com",
+        "cuisine": "Thai",
+        "price": "$$",
+        "coordinates": {
+            "longitude": 42.336648,
+            "latitude": -71.085837
+        },
+    },
+    {
+        "name": "MIDA",
+        "id": 1002,
+        "globalRating": 4.5,
+        "street": "782 Tremont St",
+        "city": "Boston",
+        "state": "MA",
+        "zipcode": "02118",
+        "phone": "617-936-3490",
+        "website": "midaboston.com",
+        "cuisine": "Italian",
+        "price": "$$$",
+        "coordinates": {
+            "longitude": 42.339111,
+            "latitude": -71.080524
+        },
+    }
+]

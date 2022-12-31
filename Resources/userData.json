@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1001,
+        "firstName": "Rachel",
+        "lastName": "Li",
+        "email": "rachell1566@gmail.com",
+        "DOB": "2000-12-15",
+        "followersCount": 5,
+        "followingCount": 5,
+        "postsCount": 10,
+        "posts": [
+            {
+                "id":1001,
+                "restaurant": "McDonald's",
+                "rating": 4,
+                "review": "Nuggets were great",
+                "images": ["mcd1","mcd2","mcd3","mcd4","mcd5","mcd6"]
+            },
+            {
+                "id":1002,
+                "restaurant": "Bangkok Pinto",
+                "rating": 4.5,
+                "review": "Love the terriyaki chicken fried rice",
+                "images":[]
+            }
+        ],
+        "eatListCount": 5,
+        "eatList": [1001, 1002]
+    },
+    {
+        "id": 1002,
+        "firstName": "Vito",
+        "lastName": "Montesa",
+        "email": "cvmontesa@gmail.com",
+        "DOB": "2001-08-02",
+        "followersCount": 10,
+        "followingCount": 15,
+        "postsCount": 25,
+        "posts": [],
+        "eatListCount": 5,
+        "eatList": [1001, 1002]
+    },
+]
+
