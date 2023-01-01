@@ -24,7 +24,7 @@ struct ContentView: View {
                     Label("Feed", systemImage: "fork.knife.circle")
                 }
                 .tag(Tab.home)
-            CreatePostView()
+            PhotoSelectView()
                 .tabItem {
                     Label("Post", systemImage: "plus.circle")
                 }

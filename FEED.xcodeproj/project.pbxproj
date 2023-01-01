@@ -46,13 +46,19 @@
 		AC4AA62E295E635C00D15A83 /* PhotoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA62D295E635C00D15A83 /* PhotoSelectView.swift */; };
 		AC4AA62F295E635C00D15A83 /* PhotoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA62D295E635C00D15A83 /* PhotoSelectView.swift */; };
 		AC4AA634295FB56D00D15A83 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA633295FB56D00D15A83 /* PhotoPicker.swift */; };
-		AC4AA635295FB56D00D15A83 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA633295FB56D00D15A83 /* PhotoPicker.swift */; };
 		AC4AA637295FD6AA00D15A83 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA636295FD6AA00D15A83 /* CreatePostView.swift */; };
 		AC4AA638295FD6AA00D15A83 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA636295FD6AA00D15A83 /* CreatePostView.swift */; };
 		AC4AA63A295FDA0D00D15A83 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA639295FDA0D00D15A83 /* FavoriteButton.swift */; };
 		AC4AA63B295FDA0D00D15A83 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA639295FDA0D00D15A83 /* FavoriteButton.swift */; };
 		AC4AA63D295FDE4A00D15A83 /* PostPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA63C295FDE4A00D15A83 /* PostPhoto.swift */; };
 		AC4AA63E295FDE4A00D15A83 /* PostPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA63C295FDE4A00D15A83 /* PostPhoto.swift */; };
+		AC4AA6402960B46500D15A83 /* ScrollingHStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA63F2960B46500D15A83 /* ScrollingHStackModifier.swift */; };
+		AC4AA6412960B46500D15A83 /* ScrollingHStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AA63F2960B46500D15A83 /* ScrollingHStackModifier.swift */; };
+		AC6F4C0529610ECC0036F282 /* PhotosGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F4C0429610ECC0036F282 /* PhotosGridView.swift */; };
+		AC6F4C07296113900036F282 /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F4C06296113900036F282 /* MultiTextField.swift */; };
+		AC6F4C09296117C80036F282 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F4C08296117C80036F282 /* StarRatingView.swift */; };
+		AC6F4C0B296140FE0036F282 /* StarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F4C0A296140FE0036F282 /* StarShape.swift */; };
+		AC6F4C0D296237C40036F282 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F4C0C296237C40036F282 /* RatingView.swift */; };
 		AC7374ED29551E2100431624 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7374EC29551E2100431624 /* ProfileImage.swift */; };
 		AC7374EE29551E2100431624 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7374EC29551E2100431624 /* ProfileImage.swift */; };
 		AC7374F029555F0000431624 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7374EF29555F0000431624 /* PostsView.swift */; };
@@ -117,6 +123,12 @@
 		AC4AA636295FD6AA00D15A83 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 		AC4AA639295FDA0D00D15A83 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		AC4AA63C295FDE4A00D15A83 /* PostPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPhoto.swift; sourceTree = "<group>"; };
+		AC4AA63F2960B46500D15A83 /* ScrollingHStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingHStackModifier.swift; sourceTree = "<group>"; };
+		AC6F4C0429610ECC0036F282 /* PhotosGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridView.swift; sourceTree = "<group>"; };
+		AC6F4C06296113900036F282 /* MultiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextField.swift; sourceTree = "<group>"; };
+		AC6F4C08296117C80036F282 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		AC6F4C0A296140FE0036F282 /* StarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShape.swift; sourceTree = "<group>"; };
+		AC6F4C0C296237C40036F282 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		AC7374EC29551E2100431624 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		AC7374EF29555F0000431624 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
 		AC7374F229555F5000431624 /* EatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatListView.swift; sourceTree = "<group>"; };
@@ -279,6 +291,11 @@
 				AC7374F92956302A00431624 /* StarRating.swift */,
 				39FBD3D328F66B4000293196 /* DataLoad.swift */,
 				AC4AA639295FDA0D00D15A83 /* FavoriteButton.swift */,
+				AC4AA63F2960B46500D15A83 /* ScrollingHStackModifier.swift */,
+				AC6F4C06296113900036F282 /* MultiTextField.swift */,
+				AC6F4C08296117C80036F282 /* StarRatingView.swift */,
+				AC6F4C0A296140FE0036F282 /* StarShape.swift */,
+				AC6F4C0C296237C40036F282 /* RatingView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -286,12 +303,21 @@
 		AC4AA62C295E633E00D15A83 /* CreatePost */ = {
 			isa = PBXGroup;
 			children = (
+				AC6F4C0329610EAD0036F282 /* Helpers */,
 				AC4AA62D295E635C00D15A83 /* PhotoSelectView.swift */,
-				AC4AA633295FB56D00D15A83 /* PhotoPicker.swift */,
 				AC4AA636295FD6AA00D15A83 /* CreatePostView.swift */,
 				AC4AA63C295FDE4A00D15A83 /* PostPhoto.swift */,
 			);
 			path = CreatePost;
+			sourceTree = "<group>";
+		};
+		AC6F4C0329610EAD0036F282 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AA633295FB56D00D15A83 /* PhotoPicker.swift */,
+				AC6F4C0429610ECC0036F282 /* PhotosGridView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		AC7374F5295572A300431624 /* Posts */ = {
@@ -485,19 +511,25 @@
 				AC4AA634295FB56D00D15A83 /* PhotoPicker.swift in Sources */,
 				AC7375012956C58B00431624 /* PostImage.swift in Sources */,
 				39FBD3D428F66B4000293196 /* DataLoad.swift in Sources */,
+				AC6F4C0D296237C40036F282 /* RatingView.swift in Sources */,
 				AC4AA62E295E635C00D15A83 /* PhotoSelectView.swift in Sources */,
 				AC7374F7295572B800431624 /* PostRow.swift in Sources */,
+				AC6F4C0B296140FE0036F282 /* StarShape.swift in Sources */,
 				390670FE28EDCFE7004F27C5 /* ProfileView.swift in Sources */,
 				39999BA828EC9B4900837299 /* UserModel.swift in Sources */,
 				39999B8D28EC763900837299 /* ContentView.swift in Sources */,
 				AC7374FE29567C1400431624 /* EatListRow.swift in Sources */,
+				AC4AA6402960B46500D15A83 /* ScrollingHStackModifier.swift in Sources */,
 				AC4AA637295FD6AA00D15A83 /* CreatePostView.swift in Sources */,
+				AC6F4C0529610ECC0036F282 /* PhotosGridView.swift in Sources */,
 				AC7374ED29551E2100431624 /* ProfileImage.swift in Sources */,
 				39999B8B28EC763900837299 /* FEEDApp.swift in Sources */,
 				39999BA428EC9AEB00837299 /* RestaurantModelData.swift in Sources */,
 				3948A64828EDDEEA00ECF87F /* HomeView.swift in Sources */,
+				AC6F4C07296113900036F282 /* MultiTextField.swift in Sources */,
 				AC4AA62A295AA01900D15A83 /* PointOfInterest.swift in Sources */,
 				39FBD3CE28F6528600293196 /* UserModelData.swift in Sources */,
+				AC6F4C09296117C80036F282 /* StarRatingView.swift in Sources */,
 				AC4AA63D295FDE4A00D15A83 /* PostPhoto.swift in Sources */,
 				AC7374F329555F5000431624 /* EatListView.swift in Sources */,
 			);
@@ -514,7 +546,6 @@
 				39DAC35B2905E7A0004CB1CF /* SearchView.swift in Sources */,
 				39DAC35E2905E7A9004CB1CF /* ProfileSummary.swift in Sources */,
 				39DAC35C2905E7A3004CB1CF /* LocationManager.swift in Sources */,
-				AC4AA635295FB56D00D15A83 /* PhotoPicker.swift in Sources */,
 				AC7375022956C58B00431624 /* PostImage.swift in Sources */,
 				39DAC3592905E793004CB1CF /* UserModel.swift in Sources */,
 				AC4AA62F295E635C00D15A83 /* PhotoSelectView.swift in Sources */,
@@ -523,6 +554,7 @@
 				39DAC3552905E779004CB1CF /* DataLoad.swift in Sources */,
 				39999B8E28EC763900837299 /* ContentView.swift in Sources */,
 				AC7374FF29567C1400431624 /* EatListRow.swift in Sources */,
+				AC4AA6412960B46500D15A83 /* ScrollingHStackModifier.swift in Sources */,
 				AC4AA638295FD6AA00D15A83 /* CreatePostView.swift in Sources */,
 				AC7374EE29551E2100431624 /* ProfileImage.swift in Sources */,
 				39DAC35A2905E79C004CB1CF /* HomeView.swift in Sources */,

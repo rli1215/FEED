@@ -18,56 +18,40 @@ struct PhotoSelectView: View {
     let columns = [GridItem(.fixed(120), spacing: 10), GridItem(.fixed(120), spacing: 10), GridItem(.fixed(120), spacing: 10)]
      
     var body: some View {
-        VStack {
-            if selectedImages.count > 0 {
-                Text(String(selectedImages.count))
-                ScrollView() {
-                    LazyVGrid(columns: columns) {
-                        ForEach(Array(selectedImages.enumerated()), id:\.element) { index, element in
-                            ZStack(alignment:.topTrailing) {
-                                Image(uiImage:element.image)
-                                    .resizable()
-                                    .frame(width:120, height:120)
-                                FavoriteButton(isSet: $selectedImages[index].isCoverPhoto,
-                                               index: index,
-                                               curIndex:$coverPhoto)
-                                .padding([.top, .trailing], 5)
-
-                            }
+        NavigationView {
+            VStack {
+                if selectedImages.count > 0 {
+                    PhotosGridView(selectedImages:$selectedImages, coverPhoto: $coverPhoto)
+                } else {
+                    Image(systemName: "photo.artframe")
+                        .resizable()
+                        .frame(width: 200, height: 200)
+                        .foregroundColor(.gray.opacity(0.6))
+                        .padding()
+                    Button(action: {
+                        self.isShowPhotoLibrary = true
+                    }) {
+                        HStack {
+                            Image(systemName: "photo")
+                                .font(.system(size: 20))
+                            
+                            Text("Photo library")
+                                .font(.headline)
                         }
+                        .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 50)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(20)
+                        .padding(.horizontal)
                     }
-                }
-            } else {
-                Image(systemName: "photo.artframe")
-                    .resizable()
-                    .frame(width: 200, height: 200)
-                    .foregroundColor(.gray.opacity(0.6))
-                    .padding()
-                Button(action: {
-                    self.isShowPhotoLibrary = true
-                }) {
-                    HStack {
-                        Image(systemName: "photo")
-                            .font(.system(size: 20))
-                        
-                        Text("Photo library")
-                            .font(.headline)
-                    }
-                    .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 50)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(20)
-                    .padding(.horizontal)
                 }
             }
-    
-        }
-        .sheet(isPresented: $isShowPhotoLibrary) {
-            PhotoPicker(images: self.$selectedImages, selectionLimit: 12)
+            .sheet(isPresented: $isShowPhotoLibrary) {
+                PhotoPicker(images: self.$selectedImages, selectionLimit: 12)
+            }
         }
     }
 }
-
 
 struct PhotoSelectView_Previews: PreviewProvider {
     static var previews: some View {

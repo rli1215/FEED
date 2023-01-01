@@ -36,9 +36,6 @@ struct PhotoPicker: UIViewControllerRepresentable {
         }
         
         func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-            //Dismiss picker
-            picker.dismiss(animated: true)
-
             if !results.isEmpty {
                 parent.itemProviders = []
                 parent.images = []
@@ -46,6 +43,9 @@ struct PhotoPicker: UIViewControllerRepresentable {
             
             parent.itemProviders = results.map(\.itemProvider)
             loadImage()
+            
+            //Dismiss picker
+            picker.dismiss(animated: true)
         }
         
         private func loadImage() {
